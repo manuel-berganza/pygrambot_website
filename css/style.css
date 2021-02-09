@@ -1,0 +1,162 @@
+:root {
+    --blue: #185C99;
+    --light-blue: #A0CDE6;
+    --dark-blue: #212C5C;
+    --yellow: #F8F32B;
+    --green: #008F39;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 16px; 
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif; 
+}
+
+
+.header {
+  height: 95vh; 
+}
+
+.header img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 95vh;
+}
+
+
+/* --- Menu --- */
+
+.menu {
+  padding-left: 50px;
+  margin-bottom: 3em;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 2.5em;
+  color: white;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+.submenu li{
+  display: block;
+  padding: 0;
+  padding-top: 1.2em;
+}
+
+.submenu a {
+  font-size: 14px;
+}
+
+
+.menu a:hover {
+  color: var(--light-blue);
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* --- Parrafo --- */
+
+.header-text {
+  margin: auto;
+  width: 40%;
+}
+
+.header-title {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 62px;
+  margin: 0;
+}
+
+.header-p {
+  text-align: center;
+  color: white;
+  line-height: 24px; 
+  font-size: 20px;
+}
+
+
+/*------------ Contact Form ---------------------*/
+form{
+	width: 450px;
+	margin: auto;
+	background-color: rgba(139, 150, 161, 0.2);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+
+.tittle-form{
+	color:#fff;
+	text-align: center;
+	margin:0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+
+}
+#bt{
+	background-color: #31384A;
+	color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+#bt:hover {
+	cursor: pointer;
+}
+@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+}
+/*------------ footer ---------------------*/
+.footer{
+  height: 50px;
+  margin: 16px 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
