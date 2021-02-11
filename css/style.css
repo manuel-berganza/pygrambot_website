@@ -157,6 +157,9 @@ textarea{
   height: 50px;
   margin: 16px 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  
 }
-
+.footer a{
+  text-decoration: none;
+}
