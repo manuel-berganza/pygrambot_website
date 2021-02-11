@@ -1,0 +1,90 @@
+.header {
+    height: 95vh; 
+}
+    
+.polygon-img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 95vh;
+}
+    
+/* --- Header Nav --- */
+    
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+    
+/* --- Menu --- */
+    
+.menu {
+    padding-left: 50px;
+    margin-bottom: 3em;
+    li{
+        display: inline-block;
+        padding: 2.5em;
+        color: white;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        }
+}
+    
+.submenu {
+    display: none;
+    position: absolute;
+    li{
+        display: block;
+        padding: 0;
+        padding-top: 1.2em;
+    }
+        
+    a {
+        font-size: 14px;
+    }    
+}
+    
+  
+    
+.menu a:hover {
+    color: var(--light-blue);
+}
+    
+.menu li:hover .submenu {
+    display: block;
+}
+    
+/* --- Header Logo --- */
+    
+.header-logo {
+    width: 232px;
+    height: 110px;
+    margin-right: 2.5em;
+}
+    
+    
+/* --- Parrafo --- */
+    
+.header-text {
+    margin: 2.5em auto;
+    width: 40%;
+}
+    
+.header-title {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 62px;
+    margin: 0;
+}
+    
+.header-p {
+    text-align: center;
+    color: white;
+    line-height: 24px; 
+    font-size: 20px;
+}

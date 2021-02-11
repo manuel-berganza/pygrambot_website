@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./normalize/normalize.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
@@ -17,45 +17,49 @@
 
   <div class="header">
 
-    <img src="./img/Polygon Luminary.svg">
+    <img class="polygon-img" src="./img/Polygon Luminary.svg">
     
-    <ul class="menu">
-      <li> <a>About</a> </li>
-      <li> <a>Projects</a>
-        <ul class="submenu">
-          <li> <a>Pyctionary Bot</a> </li>
-          <li> <a>Pyexample</a> </li>
-          <li> <a>Pybot</a> </li>
-        </ul>
+    <div class="header-nav">
+      <img class="header-logo" src="./img/blanco.png">
+      <ul class="menu">
+        <li> <a>About</a> </li>
+        <li> <a>Projects</a>
+          <ul class="submenu">
+            <li> <a>Pyctionary Bot</a> </li>
+            <li> <a>Pyexample</a> </li>
+            <li> <a>Pybot</a> </li>
+          </ul>
+        </li>      
+        <li> <a>Home</a> </li>
+      </ul> 
+    </div>
 
-      </li>      
-      <li> <a>Home</a> </li>
-    </ul>
+    
 
     <div class="header-text">
       <h1 class="header-title">PyGram Bots</h1>
       <p class="header-p">Collection of fast and easy-to-use tools, created with the help of Python and the Telegram API We make your life easier</p>
       <p class="header-p">Creators: <strong>Gustavo Barboza</strong> and <strong>Manuel Berganza</strong> </p>
-    </div>
+    </div> 
   </div>
-  
-    <section >
-      <div>
-        <form>
-          <h2 class="c-t">CONTACT THE TEAM</h2>
-          <input type="text" name="Name" placeholder="name">
-          <input type="text" name="Email" placeholder="email">
-          <textarea name="message" placeholder="write your message">
+
+  <section >
+    <div>
+       <form>
+         <h2 class="c-t">CONTACT THE TEAM</h2>
+         <input type="text" name="Name" placeholder="name">
+         <input type="text" name="Email" placeholder="email">
+         <textarea name="message" placeholder="write your message">
             
           </textarea>
           <input type="button" value="SEND" id="bt">
         </form>
       </div>
   </section>
-
+  
   <footer class="footer">
     <div>
-      <p>Website created by <br> <a href="https://www.linkedin.com/in/gustavo-barboza-4853181b1/" target="_blank">Gustavo Barboza</a> & <a href="#">Manuel Berganza</a></p>
+      <p>Developers<br> <a href="https://www.linkedin.com/in/gustavo-barboza-4853181b1/" target="_blank">Gustavo Barboza</a> & <a href="#">Manuel Berganza</a></p>
     </div>
 
     <div >
@@ -65,10 +69,4 @@
 
 </body>
 </html>
-  
-
-
-  
-
-
   
