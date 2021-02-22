@@ -1,13 +1,13 @@
 .header {
-    height: 95vh; 
+    height: 95vh;
+    margin-bottom: 3.5em;
 }
-    
+
 .polygon-img {
     z-index: -1;
     position: absolute;
     left: 0;
     top: 0;
-    height: 95vh;
 }
     
 /* --- Header Nav --- */
@@ -31,7 +31,7 @@
     a {
         text-decoration: none;
         font-size: 20px;
-        }
+    }
 }
     
 .submenu {
