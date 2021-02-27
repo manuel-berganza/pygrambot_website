@@ -10011,6 +10011,14 @@ h3 {
   font-size: 20px;
 }
 
+.btn {
+  margin: none;
+  width: 100%;
+  background-color: transparent;
+  color: blue;
+  border: none;
+}
+
 /*------------ Contact Form ---------------------*/
 form {
   width: 450px;
